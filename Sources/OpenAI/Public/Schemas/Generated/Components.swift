@@ -4765,7 +4765,7 @@ public enum Components {
             ///
             /// - Remark: Generated from `#/components/schemas/ModelResponseProperties/prompt_cache_retention`.
             @frozen public enum PromptCacheRetentionPayload: String, Codable, Hashable, Sendable, CaseIterable {
-                case inMemory = "in-memory"
+                case inMemory = "in_memory"
                 case _24h = "24h"
             }
             /// - Remark: Generated from `#/components/schemas/ModelResponseProperties/prompt_cache_retention`.
